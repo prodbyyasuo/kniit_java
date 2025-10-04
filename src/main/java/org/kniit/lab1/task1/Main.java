@@ -5,14 +5,14 @@ public class Main {
         String line = "";
 
         for (int i = 1; i <= 100; i++) {
-            line = line + i;
+            line += i;
 
             if (i < 100) {
-                line = line + ",";
+                line += ", ";
             }
 
             if (i % 10 == 0) {
-                line = line + "\n";
+                line += "\n";
             }
         }
 
