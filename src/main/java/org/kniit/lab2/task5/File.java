@@ -1,7 +1,7 @@
 package org.kniit.lab2.task5;
 
 class File extends FileSystemComponent {
-    private long size;
+    final long size;
 
     public File(String name, long size) {
         super(name);

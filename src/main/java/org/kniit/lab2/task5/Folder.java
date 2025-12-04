@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Folder extends FileSystemComponent {
-    private List<FileSystemComponent> children;
+    final List<FileSystemComponent> children;
 
     public Folder(String name) {
         super(name);

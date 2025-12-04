@@ -1,7 +1,7 @@
 package org.kniit.lab2.task4;
 
 class Container {
-    private double totalVolume;
+    final double totalVolume;
     private double remainingVolume;
 
     public Container(double totalVolume) {
