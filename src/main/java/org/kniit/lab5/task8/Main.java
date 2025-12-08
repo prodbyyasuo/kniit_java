@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        String[] names = {"книга", "ручка", "линейка", "пинал"};
+        String[] names = {"книга", "ручка", "линейка", "пенал"};
         String[] categories = {"канцелярия", "офис", "школа"};
         Random random = new Random();
 
