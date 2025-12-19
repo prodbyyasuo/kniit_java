@@ -45,7 +45,7 @@ public class UserDAOImpl implements UserDAO {
         String sql = "SELECT * FROM users ORDER BY id";
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql);
-             ResultSet rs = stmt.executeQuery(sql)) {
+             ResultSet rs = stmt.executeQuery()) {
             while (rs.next()) {
                 users.add(new User(
                         rs.getInt("id"),
