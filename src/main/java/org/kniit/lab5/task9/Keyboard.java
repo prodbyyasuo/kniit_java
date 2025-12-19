@@ -25,7 +25,7 @@ public class Keyboard {
         scanner.nextLine();
 
         long startTime = System.currentTimeMillis();
-        long endTime = startTime + 60000;
+        long endTime = startTime + 10000;
 
         int totalWordsShown = 0;
         int correctWords = 0;
