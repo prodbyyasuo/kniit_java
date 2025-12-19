@@ -1,4 +1,4 @@
-package org.kniit.lab11;
+package org.kniit.lab11.task24;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
